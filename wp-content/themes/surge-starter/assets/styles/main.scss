@@ -6,11 +6,21 @@
 // endbower
 
 @import "atom/global";
-@import "components/buttons";
-@import "components/comments";
-@import "components/forms";
-@import "components/grid";
-@import "components/wp-classes";
+@import "atom/buttons";
+@import "atom/fonts";
+
+@import "molecule/comments";
+@import "molecule/forms";
+@import "molecule/grid";
+@import "molecule/wp-classes";
+@import "molecule/icon-list";
+@import "molecule/services";
+@import "molecule/jumbotron";
+
+
+
+
+
 @import "template/header";
 @import "template/sidebar";
 @import "template/footer";

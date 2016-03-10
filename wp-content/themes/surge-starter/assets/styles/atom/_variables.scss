@@ -5,14 +5,16 @@ $icon-font-path:        "../fonts/";
 $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
+$primary-font:"Lato";
 
 
 /*=============================
 =            COLOR            =
 =============================*/
-$pink:#CD00CC;
-$purple:#971B97;
-$purple-bright:#AA0BE4;
-$grey:#999999;
-$gray: $grey;
-
+$pink:	#cc00cc;  //color1
+$purple: #971b97; //color2
+$purple-bright:#a90be4; //color3
+$grey:#999999; //color4
+$gray: $grey; 
+$black : #000; //color5
+$white : #fff; //color6
