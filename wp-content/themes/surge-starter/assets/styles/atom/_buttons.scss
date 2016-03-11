@@ -6,8 +6,16 @@
 	color:#fff;
 	border-radius:0px;
 	font-weight:bold;
+	&:hover {
+		background:$black;
+		color:#fff;
+		border-color:$black;
+	}
 }
 .btn.ghost {
 	background:transparent;
 	border-color:#fff;
+	&:hover {
+	@extend .btn:hover
+	}
 }

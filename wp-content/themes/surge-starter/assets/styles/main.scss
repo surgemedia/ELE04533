@@ -4,6 +4,8 @@
 // bower:scss
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+@import "../../bower_components/bootstrap-chosen/bootstrap-chosen.scss";
+
 
 @import "atom/global";
 @import "atom/buttons";
@@ -16,12 +18,14 @@
 @import "molecule/icon-list";
 @import "molecule/services";
 @import "molecule/jumbotron";
+@import "molecule/enquiry";
 
 
 
 
 
-@import "template/header";
+
+@import "template/header"; 
 @import "template/sidebar";
 @import "template/footer";
 @import "template/pages";

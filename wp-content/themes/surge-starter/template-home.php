@@ -6,8 +6,9 @@
 
 <?php while (have_posts()) : the_post(); ?>
 <section class="jumbotron" style="background-image:url('https://unsplash.it/1920/1080?image=881')">
-	<h1 class="text-center">A vibrant electrial company <br> serving Greater brisbane</h1>
+	<h1 class="text-center col-md-12">A vibrant electrial company <br> serving Greater brisbane</h1>
 	<div class="container">
+	<div class="col-md-10 col-md-offset-1">
 	<ul class="icon-list full-width">
 		<li class="col-md-4 text-center"><i class="eletrik-icon-alarm" ></i><p>Right on time</p></li>
 		<li class="col-md-4 text-center"><i class="eletrik-icon-crown" ></i><p>High quality service</p></li>
@@ -20,7 +21,7 @@
 		Call Now
 	</a>
 	</div>
-	
+	</div>
 </section>
 
 <section id="services" class="container-fluid">
@@ -49,10 +50,14 @@
 	</article>
 	</div>
 </section>
-<section class="container text-center">
+<section id="enquiry" class="container text-center">
 	<h1>Free Enquiry</h1>
 	<p>Lorem ipsum Voluptate dolor aliqua dolor cupidatat Duis.</p>
+	<div class="col-md-10 col-md-offset-1">
 	<?php displayGravityForm(get_field('form'),false,false); ?>
+	</div>
 </section>
 
 <?php endwhile; ?>
+
+

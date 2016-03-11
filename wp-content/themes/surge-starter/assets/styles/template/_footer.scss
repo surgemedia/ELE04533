@@ -1,0 +1,16 @@
+#footer {
+	
+	background:$grey-dark;
+	padding-top: 3em;
+	padding-bottom: 3em;
+
+	margin: 0;
+	span { 
+		@extend .h3;
+		color:#fff;
+		a {
+			color:#fff;
+		 }
+		}
+
+}

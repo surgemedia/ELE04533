@@ -13,3 +13,108 @@
   @extend .btn;
   @extend .btn-default;
 }
+
+
+.gform_wrapper {
+	font-size:1em;
+			/**** fix style after connect with WP***/
+			ul{
+				padding: 0;
+				list-style: none;
+				li{
+					margin: 1em;
+					display:inline-block;
+					width:45%; 
+				}
+				textarea,
+				input{
+					@extend .form-control;
+					background: transparent;
+					color:#000;
+					border: 2px solid #000; 
+					height: 40px;
+					// font-size: $paragraph-size;
+					text-align: left;
+					border-radius: 0;
+					
+					&::placeholder{
+						color:#000;
+					}
+				}
+				textarea{
+					height: 160px;
+					width:100%;
+				}
+			}
+			#field_1_7 {
+				width:92%;
+				margin: 1em;
+
+			}
+			input[type=submit]{
+				width:50%; 
+				@extend .btn;
+				@extend .h3;
+
+			}
+			/**** fix style after connect with WP***/
+			.chosen-container {
+				width:100% !important;
+				font-family: $primary-font;
+				text-align: left;
+				font-size:1em;
+				  
+					  .chosen-single {  
+					 	div {
+					 	width:35px;	
+							b {
+								@extend .icon-font-family;
+								@extend .eletrik-icon-ARROW;
+								color:$black;
+								width: 100%;
+								text-align: center;
+							}
+					 	}
+					 	
+					}
+				&.chosen-container-active {
+					 		a { div {
+					 			background:$black;
+					 			b {
+					 				color:$white;
+					 			}
+					 		}
+					 	}
+					 	}	
+				
+				span {
+							color:$black;
+							font-size:1em;
+							line-height: 2.1;
+						}
+ 			.chosen-drop {
+ 					background:$grey;
+					border:2px solid #000;
+					border-top:0px;
+				.chosen-results {
+					background:$grey;
+					
+					li {
+						text-align: left;
+						width:100%;
+						
+							color:$black;
+							font-size:1.4em;
+							line-height: 2.1;
+							text-transform: uppercase;
+							font-weight: 600;
+				
+						&.active-result.highlighted {
+							background:$pink;
+							color:#fff;
+						}
+					}
+				}
+			}
+			}
+		}

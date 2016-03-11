@@ -75,3 +75,26 @@
   $(document).ready(UTIL.loadEvents);
 
 })(jQuery); // Fully reference jQuery after this point.
+
+/*===================================
+=            Menu Action            =
+===================================*/
+var menu = {
+  init: function(tag){
+    jQuery(tag).click(function(){
+      jQuery(this).parent().siblings(".box").toggleClass("open");
+    });
+  } 
+};
+
+menu.init("button.navbar");
+
+  /*=============================================
+  = Enabling multi-level navigation =
+  ===============================================*/
+  jQuery('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+      event.preventDefault(); 
+      event.stopPropagation(); 
+      jQuery(this).parent().siblings().removeClass('open');
+      jQuery(this).parent().toggleClass('open');
+  });
