@@ -1,0 +1,7 @@
+.content-block {
+	padding-top: 7em;
+	padding-bottom:7em;
+	p {
+		@extend .p1;
+	}
+}

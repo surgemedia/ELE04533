@@ -83,6 +83,8 @@ var menu = {
   init: function(tag){
     jQuery(tag).click(function(){
       jQuery(this).parent().siblings(".box").toggleClass("open");
+      jQuery(this).toggleClass("open");
+
     });
   } 
 };
@@ -97,4 +99,5 @@ menu.init("button.navbar");
       event.stopPropagation(); 
       jQuery(this).parent().siblings().removeClass('open');
       jQuery(this).parent().toggleClass('open');
+
   });
