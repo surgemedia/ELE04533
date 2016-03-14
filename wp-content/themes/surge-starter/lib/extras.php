@@ -46,7 +46,9 @@ $custom_includes = [
   'lib/function-includePart.php',    // Scripts and stylesheets
   'lib/function-get_id_from_slug.php',    // Scripts and stylesheets
   'lib/function-get-featured-image-url.php',    // Scripts and stylesheets
-  'lib/function-truncate-content.php'    // Scripts and stylesheets
+  'lib/function-truncate-content.php',    // Scripts and stylesheets
+  'lib/post-type-team.php'    // Scripts and stylesheets
+
 
 ];
 

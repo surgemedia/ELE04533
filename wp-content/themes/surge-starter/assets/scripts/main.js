@@ -101,3 +101,36 @@ menu.init("button.navbar");
       jQuery(this).parent().toggleClass('open');
 
   });
+
+jQuery( document ).ready(function() {
+   /*===================================
+  =            Owl Carousel           =
+  ====================================*/
+  var owl = jQuery(".owl-carousel");
+
+  owl.owlCarousel({
+    
+    center:true,
+    items:2,
+    loop:true,
+    margin:0,
+    dots:false,
+    navText:["NEXT","PREVIOUS"],
+    responsiveBaseElement:".myCustomWrapper",
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        900:{
+            items:2,
+            nav:false
+        },
+        1200:{
+            items:2,
+            nav:false
+        }
+    }
+
+  });
+});
