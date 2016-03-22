@@ -12,6 +12,20 @@
       ],
       "main": true
     },
+    "header.css": {
+      "files": [
+        "styles/variables.scss",
+        "styles/fonts.scss",
+        "styles/global.scss"
+      ]
+    },
+    "title-jumbotron.css": {
+      "files": [
+        "styles/buttons.scss",
+        "styles/jumbotron.scss",
+        "styles/title-jumbotron.scss"
+      ]
+    },
     "customizer.js": {
       "files": [
         "scripts/customizer.js"

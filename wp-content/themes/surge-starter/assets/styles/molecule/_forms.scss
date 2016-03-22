@@ -13,10 +13,27 @@
   @extend .btn;
   @extend .btn-default;
 }
-
+.validation_error {
+	font-size:2em;
+	color:$pink;
+}
 
 .gform_wrapper {
 	font-size:1em;
+	span.gfield_required {
+	    position: absolute;
+	    bottom: 0.3em;
+	    right: 0.5em;
+	    font-size: 2em;
+	    color: $pink;
+	}
+	div.gfield_description.validation_message {
+		position:absolute;
+		bottom:-1.5em;
+		color:$pink;
+		text-transform: uppercase;
+	}
+
 			/**** fix style after connect with WP***/
 			ul{
 				padding: 0;
@@ -25,6 +42,12 @@
 					margin: 1em;
 					display:inline-block;
 					width:45%; 
+					position:relative;
+					&.gfield_error {
+						
+							border-bottom: 2px solid $pink;
+						
+					}
 				}
 				textarea,
 				input{
