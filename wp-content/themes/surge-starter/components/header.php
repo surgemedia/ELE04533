@@ -2,8 +2,8 @@
   
 
     <a class="brand pull-left" href="<?= esc_url(home_url('/')); ?>">
-    <?php $logo_image = '/ELE04533/wp-content/uploads/2016/03/logo.png'; ?>
-  <img width="195" height="auto" src="<?php echo $logo_image; //aq_resize($logo_image,195,345,true,true,true); ?>
+    <?php $logo_image = get_field('logo','options') ?>
+  <img width="195" height="auto" src="<?php echo aq_resize($logo_image,195,245,true,true,true); ?>
   " alt="<?php bloginfo('name'); ?>">
   </a>
  <div class="menu">

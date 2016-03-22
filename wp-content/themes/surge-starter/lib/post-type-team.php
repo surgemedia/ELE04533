@@ -5,9 +5,9 @@
 function people_post() {
 
 	$labels = array(
-		'name'                => _x( 'Management Team', 'Post Type General Name', 'text_domain' ),
+		'name'                => _x( 'Team', 'Post Type General Name', 'text_domain' ),
 		'singular_name'       => _x( 'Team Member', 'Post Type Singular Name', 'text_domain' ),
-		'menu_name'           => __( 'Management Team', 'text_domain' ),
+		'menu_name'           => __( 'Team', 'text_domain' ),
 		'parent_item_colon'   => __( 'Parent Item:', 'text_domain' ),
 		'all_items'           => __( 'All Items', 'text_domain' ),
 		'view_item'           => __( 'View Item', 'text_domain' ),
